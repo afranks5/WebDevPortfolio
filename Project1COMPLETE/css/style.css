@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Montserrat');
+
+.body{
+	background: black;
+}
+.flex-container {
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.flex-item-home {
+ 
+  background: #34779F;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  flex-grow: 0;
+  
+}
+
+.flex-item {
+ 
+  background: #34779F;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  flex-grow: 0;
+  
+}
+
+.flex-item > ul {
+	text-align: left; 
+	
+}
+
+
+#mePic{
+	width:200px;
+	height:150px;
+}
+
+
+#header{
+  font-family: 'Exo 2', sans-serif;
+  flex-grow: 6;
+  height: 100%;
+  width:100%;
+  background: purple;
+  
+}
+#list-item-home{
+font-family: 'Exo 2', sans-serif;	
+  display: inline;
+  position: relative;
+  
+  width: 100%;
+}
+
+#list-item1{	  
+  display: inline;
+  position: relative;
+  
+  width: 15%;
+}
+#list-item2{
+	font-family: 'Exo 2', sans-serif;
+  display: inline;
+  position: relative;
+  font-size: 1em;
+  width: 25%;
+}
+#list-item3{
+	  font-family: Arial;
+  display: inline;
+  position: relative;
+  font-size: 1em;
+  width: 15%;
+  
+}
+
+#footer{
+  font-family: 'Exo 2', sans-serif;
+  position: static;
+  bottom:100%;
+  
+  flex-grow:0;
+  width:100%;
+  background: purple;
+}
