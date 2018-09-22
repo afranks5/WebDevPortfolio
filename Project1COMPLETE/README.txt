@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/afranks5/pen/LJgXYz.
+This is Project 1 completed and ready to go.
 
  
